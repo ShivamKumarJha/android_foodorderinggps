@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:background="@drawable/ss"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <EditText android:hint="Enter Your Mobile Number"
+        android:id="@+id/mobilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:inputType="number"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText android:hint="Enter Your Name"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <EditText android:hint="Enter Your Email id"
+        android:id="@+id/emailid" android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <EditText android:hint="Enter Train Name"
+        android:id="@+id/trainname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <EditText android:hint="Enter Your Coach Number"
+        android:id="@+id/coach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <EditText android:hint="Enter Your Seat Number"
+        android:id="@+id/seat" android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <EditText android:hint="Enter Your PNR Number"
+        android:id="@+id/pnrno" android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/orderplace"
+        android:hint="Place of Delivery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button android:layout_marginTop="25dp"
+        android:id="@+id/placedorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Order" android:textStyle="bold" />
+
+</LinearLayout>
+</ScrollView>

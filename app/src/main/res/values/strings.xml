@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Food Ordering System</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+   <color name="c1">#F0A804</color>
+<color name="c2">#F0F0F0</color>
+<string name="about">Please enter about ur project hjhjjjjh</string>
+
+</resources>

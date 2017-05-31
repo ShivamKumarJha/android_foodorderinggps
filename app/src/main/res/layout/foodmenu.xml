@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?> 
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/ss"
+         android:layout_width="match_parent" android:layout_height="wrap_content">
+
+<LinearLayout 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:layout_gravity="center" >
+<LinearLayout  android:layout_width="wrap_content" android:layout_marginBottom="30dp"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity" android:textColor="@android:color/white" android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+            android:layout_width="wrap_content" android:textColor="@android:color/white" android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Food Name" android:layout_marginLeft="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    
+    </LinearLayout>    
+<LinearLayout  android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+     <EditText
+        android:id="@+id/editText1" android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="1"
+        android:ems="2" >
+    
+    </EditText>
+    <CheckBox android:layout_marginLeft="75dp"
+        android:id="@+id/checkBox1" android:textColor="@android:color/white" android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veg Thali" />
+</LinearLayout>
+     
+
+<LinearLayout  android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:orientation="horizontal">  
+     
+     <EditText android:inputType="number"
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="1"
+        android:ems="2" >
+        </EditText>
+     <CheckBox android:layout_marginLeft="75dp"
+        android:id="@+id/checkBox2" android:textColor="@android:color/white" android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Special Thali" />
+     </LinearLayout>
+     <LinearLayout  android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+         <EditText
+        android:id="@+id/editText3" android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="1"
+        android:ems="2" ></EditText>
+         <CheckBox android:textColor="@android:color/white" android:textStyle="bold"
+        android:id="@+id/checkBox3" android:layout_marginLeft="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sweet Gulab Jamun" />
+      </LinearLayout>
+      <LinearLayout  android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+            <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content" android:inputType="number"
+        android:layout_height="wrap_content" android:text="1"
+        android:ems="2" />
+       <CheckBox android:textColor="@android:color/white" android:textStyle="bold"
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content" android:layout_marginLeft="75dp"
+        android:layout_height="wrap_content"
+        android:text="Zeera Rice" />
+       </LinearLayout>
+       <LinearLayout  android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+            <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="1" android:inputType="number"
+        android:ems="2" />
+        <CheckBox android:textColor="@android:color/white" android:textStyle="bold"
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content" android:layout_marginLeft="75dp"
+        android:layout_height="wrap_content"
+        android:text="Veg Biryani" />
+        </LinearLayout>
+        <LinearLayout  android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+             <EditText android:text="1"
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content" android:inputType="number"
+        android:layout_height="wrap_content"
+        android:ems="2" />
+         <CheckBox android:textColor="@android:color/white" android:textStyle="bold"
+        android:id="@+id/checkBox6" android:layout_marginLeft="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manchuria" />
+         </LinearLayout>
+         <LinearLayout  android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+              <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content" android:inputType="number"
+        android:layout_height="wrap_content" android:text="1"
+        android:ems="2" />
+          <CheckBox android:textColor="@android:color/white" android:textStyle="bold"
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginLeft="75dp"
+        android:text="Tomato Rice" />
+          </LinearLayout>
+          <LinearLayout  android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+               <EditText android:inputType="number"
+        android:id="@+id/editText8" android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="2" />
+           <CheckBox android:textColor="@android:color/white" android:textStyle="bold"
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginLeft="75dp"
+        android:text="North Thali" />
+           </LinearLayout>
+           <LinearLayout  android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+                <EditText android:text="1"
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:inputType="number"
+        android:ems="2"></EditText>
+            <CheckBox android:textColor="@android:color/white" android:textStyle="bold"
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginLeft="75dp"
+        android:text="Cool drinks" />
+            </LinearLayout>
+            <LinearLayout  android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+                 <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content" android:inputType="number"
+        android:layout_height="wrap_content" android:text="1"
+        android:ems="2" />
+             <CheckBox android:textColor="@android:color/white" android:textStyle="bold"
+        android:id="@+id/checkBox10" android:layout_marginLeft="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pav Bhaji" />
+</LinearLayout>
+
+            <Button android:layout_gravity="center"
+                android:id="@+id/foodsubmit" android:textColor="@android:color/black" android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food Selection" />
+</LinearLayout>
+</ScrollView>
